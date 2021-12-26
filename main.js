@@ -1,8 +1,9 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
+const { Client, Intents } = require('discord.js');
+const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const { token } = require('./config.json');
 
 client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag}!`);
-  });
+  console.log(`Logged in as ${client.user.tag}!`);
+});
 
-client.login(process.env.TOKEN) //make sure to create your own .env file to store the bot token
+client.login(token) //make sure to create your own .env file to store the bot token
