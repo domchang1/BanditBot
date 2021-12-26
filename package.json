@@ -1,0 +1,19 @@
+{
+  "name": "banditbot",
+  "version": "1.0.0",
+  "description": "a simple discord bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domchang1/BanditBot.git"
+  },
+  "author": "Dominic Chang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domchang1/BanditBot/issues"
+  },
+  "homepage": "https://github.com/domchang1/BanditBot#readme"
+}
