@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/domchang1/BanditBot/issues"
   },
-  "homepage": "https://github.com/domchang1/BanditBot#readme"
+  "homepage": "https://github.com/domchang1/BanditBot#readme",
+  "dependencies": {
+    "discord.js": "^13.4.0"
+  }
 }
